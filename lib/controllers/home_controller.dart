@@ -24,4 +24,16 @@ class HomeController extends GetxController {
       isLoading(false);
     }
   }
+
+  String getTitle(int index) {
+    return bookThumbnailList[index].title;
+  }
+
+  String getImage(int index) {
+    return bookThumbnailList[index].image;
+  }
+
+  String getPrice(int index) {
+    return bookThumbnailList[index].price;
+  }
 }
